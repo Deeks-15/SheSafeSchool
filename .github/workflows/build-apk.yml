@@ -35,7 +35,7 @@ jobs:
           cython --version
       - name: Run backend tests
         run: |
-          python -m pip install fastapi==0.99.1 pydantic==1.10.13 pytest
+          python -m pip install fastapi==0.99.1 pydantic==1.10.24 pytest
           pytest -q
       - name: Clean previous Android build
         run: |
