@@ -1,0 +1,5 @@
+kivy==2.3.0
+fastapi==0.99.1
+pydantic==1.10.13
+uvicorn==0.22.0
+h11==0.14.0
